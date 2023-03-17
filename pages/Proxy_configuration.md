@@ -49,7 +49,6 @@ var hosts = [
     'webmoney.ru',
     'wmtransfer.com',
     'kinopoisk.ru',
-    'lovina.app',
     'mradx.net',
     'tns-counter.ru',
     'cdnland.in',
@@ -78,3 +77,7 @@ function FindProxyForURL(url, host) {
     return "DIRECT";
 }
 ```
+- `var proxy` &ndash; proxy IP and port;
+- `var proxy_all` &ndash; pass all traffic via proxy;
+- `var hosts` &ndash; pass websites from this list via proxy;
+- `var domains` &ndash; pass all the websites with domains from this list via proxy. 
