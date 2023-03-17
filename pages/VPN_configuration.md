@@ -1,5 +1,7 @@
 # VPN configuration guide
 
+> **Warning!** PPTP VPN protocol is not secured! It used just to bypass Internet restrictions.
+
 ## 1. Windows configuration
 ### 1.1 Create a new VPN connection
 Go to `Settings` &rarr; `Network & Internet` &rarr; `VPN` &rarr; `Add a VPN connection`.

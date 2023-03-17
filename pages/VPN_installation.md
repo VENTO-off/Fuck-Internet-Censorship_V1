@@ -1,4 +1,5 @@
 # VPN installation guide
+> **Warning!** PPTP VPN protocol is not secured! It used just to bypass Internet restrictions.
 
 > **Note!** Linux based operating system must be installed on the server.
 
