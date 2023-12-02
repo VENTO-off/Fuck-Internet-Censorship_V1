@@ -56,7 +56,7 @@ iptables-save
 apt-get install iptables-persistent
 ```
 
-## 6. Configuring IP forwarding
+## 6. Configuring network
 
 ### 6.1 Enable IP forwarding
 Open configuration file `/etc/sysctl.conf` and uncomment the next line:
