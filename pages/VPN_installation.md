@@ -30,31 +30,46 @@ idle 900
 ## 5. Configuring firewall (iptables)
 
 ### 5.1 Allow VPN connections
-```
+```shell
 iptables -A INPUT -i eth0 -p tcp --dport 1723 -j ACCEPT
 ```
-```
+```shell
 iptables -A INPUT -i eth0 -p gre -j ACCEPT
 ```
-```
+```shell
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
-```
+```shell
 iptables -A FORWARD -i ppp+ -o eth0 -j ACCEPT
 ```
-```
+```shell
 iptables -A FORWARD -i eth0 -o ppp+ -j ACCEPT
 ```
 
 ### 5.2 Save firewall rules
-```
-sysctl -p
-```
-```
+```shell
 iptables-save
 ```
 
-## 6. Starting VPN
+### 5.3 Save firewall rules permanently
+```shell
+apt-get install iptables-persistent
 ```
+
+## 6. Configuring IP forwarding
+
+### 6.1 Enable IP forwarding
+Open configuration file `/etc/sysctl.conf` and uncomment the next line:
+```
+net.ipv4.ip_forward=1
+```
+
+### 6.2 Apply the changes
+```shell
+sysctl -p
+```
+
+## 7. Starting VPN
+```shell
 /etc/init.d/pptpd start
 ```
