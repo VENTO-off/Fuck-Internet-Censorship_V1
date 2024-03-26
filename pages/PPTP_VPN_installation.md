@@ -1,4 +1,4 @@
-# VPN installation guide
+# PPTP VPN installation guide
 > **Warning!** PPTP VPN protocol is not secured! It used just to bypass Internet restrictions.
 
 > **Note!** Linux based operating system must be installed on the server.
@@ -53,7 +53,7 @@ iptables-save
 
 ### 5.3 Save firewall rules permanently
 ```shell
-apt-get install iptables-persistent
+netfilter-persistent save
 ```
 
 ## 6. Configuring network

@@ -43,7 +43,7 @@ ad\.mail.ru
 ```
 
 ### 3.2 Apply blocked domains rule
-Open configuration file `/etc/squid/squid.conf`  and add the next rules:
+Open configuration file `/etc/squid/squid.conf` and add the next rules:
 ```
 acl url_filtred src all
 acl blacklist url_regex -i "/etc/squid/blacklist"
