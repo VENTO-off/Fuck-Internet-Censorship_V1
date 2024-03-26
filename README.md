@@ -21,12 +21,12 @@ This repository contains instructions on how to bypass all Internet restrictions
 - [PC and phone configuration guide](/pages/Proxy_configuration.md)
 
 ### Own IKEv2 configuration
-- [Installation guide](/pages/IKEv2_VPN_installation)
-- [PC and phone configuration guide](/pages/IKEv2_VPN_configuration)
+- [Installation guide](/pages/IKEv2_VPN_installation.md)
+- [PC and phone configuration guide](/pages/IKEv2_VPN_configuration.md)
 
 ### Own PPTP VPN configuration (not recommended to use)
-- [Installation guide](/pages/PPTP_VPN_installation)
-- [PC and phone configuration guide](/pages/PPTP_VPN_configuration)
+- [Installation guide](/pages/PPTP_VPN_installation.md)
+- [PC and phone configuration guide](/pages/PPTP_VPN_configuration.md)
 
 ### Middle server configuration (unnecessary)
 - [Configuration guide](/pages/Middle_server_configuration.md)
@@ -51,12 +51,12 @@ This repository contains instructions on how to bypass all Internet restrictions
 - [Руководство по настройке на ПК и телефоне](/pages/Proxy_configuration.md)
 
 ### Конфигурация собственного IKEv2 VPN
-- [Руководство по установке](/pages/IKEv2_VPN_installation)
-- [Руководство по настройке ПК и телефона](/pages/IKEv2_VPN_configuration)
+- [Руководство по установке](/pages/IKEv2_VPN_installation.md)
+- [Руководство по настройке ПК и телефона](/pages/IKEv2_VPN_configuration.md)
 
 ### Конфигурация собственного PPTP VPN (не рекомендуется использовать)
-- [Руководство по установке](/pages/PPTP_VPN_installation)
-- [Руководство по настройке ПК и телефона](/pages/PPTP_VPN_configuration)
+- [Руководство по установке](/pages/PPTP_VPN_installation.md)
+- [Руководство по настройке ПК и телефона](/pages/PPTP_VPN_configuration.md)
 
 ### Конфигурация промежуточного сервера (необязательно)
 - [Руководство по настройке](/pages/Middle_server_configuration.md)
