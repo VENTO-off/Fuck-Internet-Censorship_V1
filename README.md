@@ -16,7 +16,7 @@ This repository contains instructions on how to bypass all Internet restrictions
    - Configure connection on your PC and phone
 4. Set up an additional server (referred to as the middle server) to establish a double Proxy/VPN configuration.
 
-### Own proxy configuration
+### Own Squid proxy configuration
 - [Installation guide](/pages/Proxy_installation.md)
 - [PC and phone configuration guide](/pages/Proxy_configuration.md)
 
@@ -46,7 +46,7 @@ This repository contains instructions on how to bypass all Internet restrictions
    - Настройка подключения на ПК и телефоне
 4. Настройка дополнительного сервера (промежуточный сервер) для создания двойного прокси/VPN.
 
-### Конфигурация собственного прокси-сервера
+### Конфигурация собственного Squid прокси-сервера
 - [Руководство по установке](/pages/Proxy_installation.md)
 - [Руководство по настройке на ПК и телефоне](/pages/Proxy_configuration.md)
 
